@@ -16,12 +16,15 @@ Este projeto utiliza a biblioteca [CrewAI](https://docs.crewai.com/) com agentes
 1. Clone o repositório:
 
 git clone https://github.com/PaivaGabrielB/crewAI-tests.git
+
 cd seu-projeto
 
 2. Crie um ambiente virtual e ative:
 
 python -m venv venv
+
 source venv/bin/activate   # Linux/macOS
+
 venv\Scripts\activate      # Windows
 
 3. Instale as dependências:
