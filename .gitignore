@@ -1,0 +1,49 @@
+# Ambiente virtual
+venv/
+.env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Arquivos temporários e de logs
+*.log
+*.tmp
+*.bak
+
+# Arquivos de configuração do Jupyter Notebook (caso use)
+.ipynb_checkpoints/
+
+# Dados e resultados gerados (ajuste conforme seu projeto)
+*.csv
+*.json
+*.xlsx
+*.parquet
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Credenciais e configurações sensíveis (se existirem)
+.env
+*.env
+secrets.json
+
+# Cache do pip
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Arquivos de testes temporários
+coverage.xml
+htmlcov/
+.cache/
+.tox/
